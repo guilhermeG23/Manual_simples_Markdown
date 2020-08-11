@@ -2,10 +2,9 @@
 
 ___
 
+### Objetivo:
+
 Esse manual tem o objetivo de apresentar a construção de arquivos **MD** sem o uso de tags **HTML**;
-
-* Serão realizadas futuras melhorias conforme possível;
-
 ___
 
 ### Títulos
@@ -14,22 +13,22 @@ Como o **HTML**, o MD tem 6 níveis de títulos;
 
 **Exemplo em MD** 
 ```
-# e
-## e
-### e
-#### e
-##### e
-###### e
+# Teste
+## Teste
+### Teste
+#### Teste
+##### Teste
+###### Teste
 ```
 
 O referênte está abaixo:
 
-* # # h1;
-* ## ## h2;
-* ### ### h3;
-* #### #### h4;
-* ##### ##### h5;
-* ###### ###### h6;
+* # # h1 Teste;
+* ## ## h2 Teste;
+* ### ### h3 Teste;
+* #### #### h4 Teste;
+* ##### ##### h5 Teste;
+* ###### ###### h6 Teste;
 
 ___
 
@@ -73,6 +72,9 @@ Não misture métodos de decoração, só dificulta o entendimento final:
 ##### BOLD:
 * **Teste** -> ```**Teste**```
 * __Teste__ -> ```__Teste__```
+
+##### Tachar
+* ~~Teste~~ -> ```~~Teste~~```
 
 ##### Justando ambos:
 * ***Teste*** -> ```***Teste***```

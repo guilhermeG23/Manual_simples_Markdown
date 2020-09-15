@@ -67,13 +67,17 @@ Use ```&nbsp;``` para quebrar as linhas, Ex:
 
 ```
 teste
+
 &nbsp;
+
 teste
 ```
 
 A saída é:
 teste
+
 &nbsp;
+
 teste
 
 ___

@@ -61,6 +61,23 @@ O texto normal não precisa colocar nenhuma marcação, somente escrevê-lo;
 
 ___
 
+### Quebrando a linha
+
+Use ```&nbsp;``` para quebrar as linhas, Ex:
+
+```
+teste
+&nbsp;
+teste
+```
+
+A saída é:
+teste
+&nbsp;
+teste
+
+___
+
 ### Decoração de texto
 
 Não misture métodos de decoração, só dificulta o entendimento final:

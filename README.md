@@ -7,6 +7,10 @@ ___
 Esse manual tem o objetivo de apresentar a construção de arquivos **MD** sem o uso de tags **HTML**;
 ___
 
+Markdown é uma linguagem simples de marcação originalmente criada por John Gruber e Aaron Swartz. Markdown converte seu texto em HTML válido. Markdown é frequentemente usado para formatar arquivos README, para escrever mensagens em fóruns de discussão online e para criar rich text usando um editor de texto simples. [Wikipédia](https://pt.wikipedia.org/wiki/Markdown)
+
+___
+
 ### Títulos
 
 Como o **HTML**, o MD tem 6 níveis de títulos;

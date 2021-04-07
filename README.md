@@ -296,10 +296,16 @@ Ou:
 
 ___
 
-### Jutabdi link com imagem
+### Juntando um link com imagem
 
 Criando uma imagem com link:
 
 [![teste](rsa.png "RSA")](#)
+
+
+Ex:
+```
+[![teste](rsa.png "RSA")](#)
+```
 
 ____

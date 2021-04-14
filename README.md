@@ -25,6 +25,7 @@ Como o **HTML**, o MD tem 6 níveis de títulos;
 ###### Teste
 ```
 
+
 O referênte está abaixo:
 
 * # # h1 Teste;
@@ -116,18 +117,19 @@ ____
 
 #### Listas
 
-Valores que se pode usar para criar uma lista:
-```
-*
--
-+
-```
+Valores que se podem ser usados para criar uma lista: *, -, +
 
-Exemplo:
-
+Uso prático:
 * Uso do ```*``` 
 + uso do ```+```
 - Uso do ```-```
+
+Exemplo de **MD**:
+```
+* Uso do ```*``` 
++ uso do ```+```
+- Uso do ```-```
+```
 
 Não é recomendavél misturar eles.
 
@@ -229,6 +231,139 @@ O resultado é:
 
 >Teste
 Teste
+teste
+
+Também é possível colocar níveis, como:
+
+> teste
+>> teste
+>>> teste
+>>>>> teste
+>>>>>>>>>>>>>>>>> teste
+>>>>>>>>>>>>>>>>>> teste
+>>>>>>>>>>>>>>>>>>> teste
+>>>>>>>>>>>>>>>>>>>> teste
+
+Seguindo essa construção em  **MD**:
+
+```
+> teste
+>> teste
+>>> teste
+...
+```
+____
+
+### Misturas
+
+Eu não recomendo fazer muito, más é possível, Ex:
+
+> teste
+> 1. teste
+> * teste
+>   * teste 
+> > * teste
+> > - teste
+
+Em **MD** é isso: 
+```
+> teste
+> 1. teste
+> * teste
+>   * teste 
+> > * teste
+> > - teste
+```
+____
+
+### Blocos de código
+
+Demonstração:
+
+```
+teste
+```
+
+~~~
+teste
+~~~
+
+Construção em **MD**:
+```
+` ` `
+teste
+` ` `
+~~~
+teste
+~~~
+```
+
+Também é possível demonstrar a síntese colorida de várias linguagens (Tem o suporte de muitas linguagens), Ex:
+
+* Javascript com o bloco em ``` ` ` ` ``` 
+```javascript
+alert("teste");
+```
+
+&nbsp;
+* Javascript com o bloco em ``` ~~~ ``` 
+~~~javascript
+alert("teste");
+~~~
+
+&nbsp;
+* PHP
+~~~php
+echo "teste";
+~~~
+
+&nbsp;
+* HTML
+~~~html
+<h1>Teste</h1>
+~~~
+
+&nbsp;
+* Python
+~~~python
+import sys
+print("teste")
+~~~
+
+Em **MD** o resultado fica:
+```
+* Javascript com o bloco em  ` ` `  
+` ` `javascript
+alert("teste");
+` ` `
+
+&nbsp;
+* Javascript com o bloco em  ~~~  
+~~~javascript
+alert("teste");
+~~~
+
+&nbsp;
+* PHP
+~~~php
+echo "teste";
+~~~
+
+&nbsp;
+* HTML
+~~~html
+<h1>Teste</h1>
+~~~
+
+&nbsp;
+* Python
+~~~python
+import sys
+print("teste")
+~~~
+```
+
+
 
 ____
 
@@ -264,7 +399,26 @@ Criando uma tabela, **Exemplo:**
 
 Tem que se utilizar o divisor ```| --- |``` para separar o cabeçalho do corpo;
 
+Lembrando que a quantidade de ```---``` não importada, tem de haver no minimo um para a criação, forá que é recomendado ter o mesmo tamanho a todos para a facilidade de vizualização.
+
 Para se criar mais colunas, deve-se criar a quantidade igual entre **Cabeçalho** e **Divisor**;
+
+
+Nas tabelas também é possível acertar o alinhamento dos conteúdos, Ex: 
+
+| Olha para a esquerda | Olha para o meio | Olha para a diretira |
+|:- |:-:| -:|
+| Esquerda  | Centro    | Direita |
+
+Em **MD** fica assim:
+
+```
+| Olha para a esquerda | Olha para o meio | Olha para a diretira |
+|:- |:-:| -:|
+| Esquerda  | Centro    | Direita |
+```
+
+Faz o uso do : na posição que deseja para realizar o alinhamento.
 
 ___
 
